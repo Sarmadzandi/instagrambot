@@ -27,7 +27,7 @@ dispatcher.add_handler(start_handler)
 
 
 def getCm(bot, update):
-    bot.sendMessage(chat_id=update.message.chat_id, text="🧐....اوکی صبر کن")
+    bot.sendMessage(chat_id=update.message.chat_id, text="🧐...اوکی صبر کن")
 
     userInfo = update.message.chat
     userMessage = update.message.text
